@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GroceryUpdateRequest {
-    public String newCategory;
-    public String oldCategory;
+
+  public String newCategory;
+  public String oldCategory;
 }

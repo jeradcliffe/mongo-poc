@@ -14,9 +14,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document("groceryitems")
 public class GroceryItem {
 
-    @Id // Allows us to use `id` instead of `_id`
-    private String id;
-    private String name;
-    private int quantity;
-    private String category;
+  @Id // Allows us to use `id` instead of `_id`
+  private String id;
+  private String name;
+  private int quantity;
+  private String category;
 }

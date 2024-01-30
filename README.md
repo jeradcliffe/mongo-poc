@@ -31,6 +31,7 @@ Other notable libraries
 
 ## Set up
 
+### SDK
 Try using [SDK man](https://sdkman.io/) to swap Java versions easily.
 
 ```shell
@@ -44,6 +45,11 @@ sdk install java 21.0.2-amzn
 # Swap back to different version of Java 
 sdk use  java 8.0.402-amzn
 ```
+### Code Style
+
+Google Code Style Setup
+* IntelliJ: https://medium.com/swlh/configuring-google-style-guide-for-java-for-intellij-c727af4ef248
+* VS Code: https://code.visualstudio.com/docs/java/java-linting
 
 ## IntelliJ Users
 
