@@ -1,6 +1,6 @@
 package com.example.mongo.repository;
 
-import com.example.mongo.documents.GroceryItem;
+import com.example.mongo.document.GroceryItem;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 

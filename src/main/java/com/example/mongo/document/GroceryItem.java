@@ -1,4 +1,4 @@
-package com.example.mongo.documents;
+package com.example.mongo.document;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

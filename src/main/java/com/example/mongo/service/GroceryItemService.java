@@ -1,6 +1,6 @@
 package com.example.mongo.service;
 
-import com.example.mongo.documents.GroceryItem;
+import com.example.mongo.document.GroceryItem;
 import com.example.mongo.repository.GroceryItemRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -58,9 +58,8 @@ public class GroceryItemService {
     ///////////////////////////////
     // READ
     ///////////////////////////////
-    public void showAllGroceryItems() {
-        System.out.println("showAllGroceryItems");
-        repository.findAll().forEach(System.out::println);
+    public List<GroceryItem> showAllGroceryItems() {
+        return repository.findAll();
     }
 
     public void getGroceryItemByName(String name) {
