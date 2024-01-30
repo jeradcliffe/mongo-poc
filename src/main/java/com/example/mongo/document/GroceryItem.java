@@ -7,11 +7,11 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document("groceryitems")
-@AllArgsConstructor
-@NoArgsConstructor
 @Data // Getters, setters, equals hash, to string that is useful
 @Builder // Only build with what you need
+@NoArgsConstructor
+@AllArgsConstructor
+@Document("groceryitems")
 public class GroceryItem {
 
     @Id // Allows us to use `id` instead of `_id`
