@@ -1,5 +1,8 @@
 # Mongo Java POC
 
+:warning: This is just meant to be a poc and a place of reference. Please fork or clone if you want
+to build off it. 
+
 This project was generated with [Spring Initializer](https://start.spring.io/)
 
 # Problems we want to solve
